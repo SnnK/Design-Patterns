@@ -28,8 +28,8 @@ namespace DesignPatterns
 
     public class Context
     {
-        public string formula;
-        public decimal cost;
+        public string formula { get; set; }
+        public decimal cost { get; set; }
     }
 
     public class CementExpression : IExpression
@@ -52,7 +52,7 @@ namespace DesignPatterns
 
     public class Manager
     {
-        public static List<IExpression> ExpressionTree(string formula)
+        public List<IExpression> ExpressionTree(string formula)
         {
             List<IExpression> expressions = new List<IExpression>();
 

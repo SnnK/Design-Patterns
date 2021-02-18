@@ -52,7 +52,7 @@ namespace DesignPatterns
         }
     }
 
-    //yukarıdaki 2 class Crypto interface'inden türetilmiştir. Bu class'ların çalışmasında herhangi bir proıblem yoktur.
+    //yukarıdaki 2 class Crypto interface'inden türetilmiştir. Bu class'ların çalışmasında herhangi bir problem yoktur.
 
     //Aşağıdaki class Crypto interface'i kullanılarak türetilmediğinden metodları farklıdır. Bu class'ın adapter'ını yazarak CryptoA ve CryptoB class'larının kullanıldığı gibi kullanılabilir.
 

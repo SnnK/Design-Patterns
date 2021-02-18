@@ -27,9 +27,9 @@ namespace DesignPatterns
 
     public class OrderOperations
     {
-        public static void Create() => Console.WriteLine("Yeni sipariş oluşturuldu.");
-        public static void Cargo() => Console.WriteLine("Kargoya verildi.");
-        public static void Notify() => Console.WriteLine("Müşteriye bildirim gönderildi.");
+        public void Create() => Console.WriteLine("Yeni sipariş oluşturuldu.");
+        public void Cargo() => Console.WriteLine("Kargoya verildi.");
+        public void Notify() => Console.WriteLine("Müşteriye bildirim gönderildi.");
     }
 
     public class CreateCommand : ICommand

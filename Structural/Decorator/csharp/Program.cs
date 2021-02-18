@@ -70,6 +70,7 @@ namespace DesignPatterns
     public class EncryptedDecorator : Decorator
     {
         private string token;
+
         public EncryptedDecorator(IEmail email, string token) : base(email)
         {
             this.token = token;
