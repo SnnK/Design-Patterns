@@ -43,7 +43,7 @@ namespace DesignPatterns
 
         public void Execute()
         {
-            OrderOperations.Create();
+            orderOperations.Create();
         }
     }
 
@@ -58,7 +58,7 @@ namespace DesignPatterns
 
         public void Execute()
         {
-            OrderOperations.Cargo();
+            orderOperations.Cargo();
         }
     }
 
@@ -73,15 +73,7 @@ namespace DesignPatterns
 
         public void Execute()
         {
-            OrderOperations.Notify();
-        }
-    }
-
-    public class SendCommand
-    {
-        public void Execute(ICommand command)
-        {
-            command.Execute();
+            orderOperations.Notify();
         }
     }
 
